@@ -30,3 +30,5 @@ require (
 )
 
 replace golang.org/x/sys => golang.org/x/sys v0.0.0-20201221093633-bc327ba9c2f0
+
+replace github.com/aws/aws-sdk-go => ./vendor/github.com/aws/aws-sdk-go
